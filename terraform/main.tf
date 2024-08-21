@@ -2,12 +2,12 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "sandbox@destra.cloud"
-    AccountName               = "sandbox-aft"
+    AccountEmail              = "sandbox2@destra.cloud"
+    AccountName               = "sandbox2-aft"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "learn-aft@destra.cloud"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    SSOUserFirstName          = "Sandbox2"
+    SSOUserLastName           = "AFT2"
   }
 
   account_tags = {
